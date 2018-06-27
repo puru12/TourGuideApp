@@ -1,6 +1,27 @@
-<ListView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/imagelist"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:drawSelectorOnTop="true"
-    android:orientation="vertical" />
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/launcher" />
+
+    <Button
+        android:id="@+id/welcome_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#212121"
+        android:padding="16dp"
+        android:text="W E L C O M E  T O  K A N P U R"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:typeface="serif" />
+
+</RelativeLayout>
