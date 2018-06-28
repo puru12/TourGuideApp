@@ -14,9 +14,9 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="350dp"
+            android:layout_marginBottom="16dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/climatetemplate"
-            android:layout_marginBottom="16dp"/>
+            android:src="@drawable/climatetemplate" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,17 +34,36 @@
                 app:cardCornerRadius="10dp"
                 app:contentPadding="10dp">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:lineSpacingExtra="6dp"
-                    android:padding="16dp"
-                    android:text="@string/climate_opening"
-                    android:textColor="@android:color/black"
-                    android:textScaleX="1.008"
-                    android:textSize="18sp"
-                    android:typeface="sans" />
+                    android:orientation="vertical">
 
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="6dp"
+                        android:padding="16dp"
+                        android:text="@string/climate_opening"
+                        android:textColor="@android:color/black"
+                        android:textScaleX="1.008"
+                        android:textSize="18sp"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="16dp"
+                        android:lineSpacingExtra="6dp"
+                        android:padding="16dp"
+                        android:text="Average Temperature: 32 C\nAverage Rainfall: 100mm"
+                        android:textColor="@android:color/black"
+                        android:textScaleX="1.008"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+                </LinearLayout>
             </android.support.v7.widget.CardView>
 
 
@@ -59,8 +78,8 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layout_marginBottom="16dp">
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -76,21 +95,6 @@
                         android:text="Lal Imli, Kanpur: Heavy Rain pelts down on \nthe road " />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="32dp"
-                android:layout_marginTop="32dp"
-                android:lineSpacingExtra="6dp"
-                android:text="Average Temperature: 32 C\nAverage Rainfall: 100mm"
-                android:textColor="@android:color/black"
-                android:textScaleX="1.008"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:typeface="sans" />
-
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

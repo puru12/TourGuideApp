@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -28,5 +29,23 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        int launchers[] = new int[11];
+
+        launchers[0] = R.drawable.launcher1;
+        launchers[1] = R.drawable.launcher1;
+        launchers[2] = R.drawable.launcher3;
+        launchers[3] = R.drawable.launcher4;
+        launchers[4] = R.drawable.launcher5;
+        launchers[5] = R.drawable.launcher6;
+        launchers[6] = R.drawable.launcher7;
+        launchers[7] = R.drawable.launcher8;
+        launchers[8] = R.drawable.launcher8;
+        launchers[9] = R.drawable.launcher10;
+        launchers[10] = R.drawable.launcher11;
+
+        int random  = (int)(10.0*Math.random());
+        ImageView imageView = findViewById(R.id.launcher);
+        imageView.setImageResource(launchers[4]);
     }
 }
