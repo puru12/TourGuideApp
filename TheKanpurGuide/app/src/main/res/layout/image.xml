@@ -1,10 +1,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
+    android:paddingBottom="6dp"
     android:paddingLeft="12dp"
     android:paddingRight="12dp"
-    android:paddingTop="6dp"
-    android:paddingBottom="6dp">
+    android:paddingTop="6dp">
 
     <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="0dp"
         app:cardBackgroundColor="@android:color/white"
-        app:cardCornerRadius="0dp"
+        app:cardCornerRadius="8dp"
         app:contentPadding="0dp">
 
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -23,8 +23,9 @@
             <ImageView
                 android:id="@+id/list_image"
                 android:layout_width="match_parent"
-                android:layout_height="310dp"
-                android:scaleType="centerCrop" />
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/climate_rain" />
 
         </LinearLayout>
     </android.support.v7.widget.CardView>
