@@ -46,6 +46,6 @@ public class MainActivity extends AppCompatActivity {
 
         int random  = (int)(10.0*Math.random());
         ImageView imageView = findViewById(R.id.launcher);
-        imageView.setImageResource(launchers[4]);
+        imageView.setImageResource(launchers[random]);
     }
 }

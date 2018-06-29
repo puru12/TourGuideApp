@@ -3,4 +3,7 @@
     <string name="climate_opening">
         The climate of Kanpur is feisty. The summers are hot and dry which last for four months, from March to June. The summers are immediately followed by the monsoon season which lasts from July to September. The following two months are warm, humid and sultry. This is followed by the onset of winters which prevails till the mid of February.
     </string>
+    <string name="climate_stats">
+        Average Summer Temperature: 32 C\nAverage Winter Temperature: 18 C\nAverage Rainfall: 960mm
+    </string>
 </resources>
