@@ -2,7 +2,6 @@ package com.example.android.thekanpurguide;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.WindowManager;
 
 public class ClimateActivity extends AppCompatActivity {
 
@@ -11,6 +10,6 @@ public class ClimateActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         //getSupportActionBar().hide();
-        setContentView(R.layout.alternate_climate);
+        setContentView(R.layout.activity_climate);
     }
 }

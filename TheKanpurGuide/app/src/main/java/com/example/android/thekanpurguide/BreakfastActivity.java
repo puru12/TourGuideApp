@@ -1,7 +1,9 @@
 package com.example.android.thekanpurguide;
 
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class BreakfastActivity extends AppCompatActivity {
 
@@ -9,5 +11,7 @@ public class BreakfastActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_breakfast);
+
+
     }
 }

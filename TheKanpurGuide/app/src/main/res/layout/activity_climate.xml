@@ -5,110 +5,168 @@
     android:background="#EEEEEE">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_margin="16dp">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:background="#EEEEEE"
+        android:orientation="vertical">
 
-        <android.support.v7.widget.CardView
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/climatetemplate" />
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="16dp"
-            android:layout_marginBottom="24dp"
-            app:cardBackgroundColor="@color/cardview_light_background"
-            app:contentPadding="12dp"
-            app:cardCornerRadius="0dp">
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="#EEEEEE"
+            android:orientation="vertical">
+
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:layout_marginTop="16dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp"
-                    android:text="Overview"
-                    android:textColor="#212121"
-                    android:textSize="36sp"
-                    android:textStyle="bold"
-                    android:typeface="serif" />
-
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="350dp"
-                    android:layout_marginBottom="0dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/climate_rain" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:padding="8dp"
-                    android:text=" Lal Imli, Kanpur: Heavy Rain pelts down the road."
-                    android:textSize="14dp"
-                    android:layout_marginBottom="32dp"/>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp"
-                    android:text="@string/climate_opening"
-                    android:textColor="#212121"
-                    android:textSize="17sp"
-                    android:typeface="serif"
-                    android:lineSpacingExtra="6dp"
-                    android:textScaleX="1.008"/>
-
-            </LinearLayout>
-        </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="16dp"
-            app:cardBackgroundColor="@color/cardview_light_background"
-            app:contentPadding="12dp"
-            app:cardCornerRadius="0dp">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:background="#EEEEEE"
                 android:orientation="vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp"
-                    android:text="Seasons"
-                    android:textColor="#212121"
-                    android:textSize="36sp"
-                    android:textStyle="bold"
-                    android:typeface="serif" />
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="350dp"
-                    android:layout_marginBottom="16dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/climate_seasons" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:text="@string/climate_opening"
-                    android:textColor="#212121"
-                    android:textSize="17sp"
-                    android:typeface="serif"
+                    android:fontFamily="@font/lora_regular"
                     android:lineSpacingExtra="6dp"
-                    android:textScaleX="1.008"/>
+                    android:padding="16dp"
+                    android:text="@string/climate_intro"
+                    android:textColor="#424242"
+                    android:textSize="18sp" />
+
             </LinearLayout>
-        </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="10dp"
+                app:contentPadding="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/climate_rain" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:text="Heavy Rain pelts down on the road at Lal Imli, Kanpur." />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="10dp"
+                app:contentPadding="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/climate_img3" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:text="A vehicle moving through a water filled road in Kanpur." />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="10dp"
+                app:contentPadding="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/climate_img2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:text="An enthusiastic group of children play in the monsoon rain." />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:cardCornerRadius="10dp"
+                app:contentPadding="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="350dp"
+                        android:layout_marginBottom="8dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/climate_img1" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:text="Roads of Kanpur filled with water during the monsoon season." />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>
