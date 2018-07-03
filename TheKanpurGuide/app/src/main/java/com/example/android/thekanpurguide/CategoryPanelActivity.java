@@ -1,5 +1,6 @@
 package com.example.android.thekanpurguide;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -32,10 +33,16 @@ public class CategoryPanelActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+                Intent intent;
                 switch (position){
 
                     case 0:
-                        Intent intent = new Intent(CategoryPanelActivity.this, ClimateActivity.class);
+                        intent = new Intent(CategoryPanelActivity.this, ClimateActivity.class);
+                        startActivity(intent);
+                        break;
+
+                    case 1:
+                        intent = new Intent(CategoryPanelActivity.this, FoodActivity.class);
                         startActivity(intent);
                         break;
 

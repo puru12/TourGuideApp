@@ -9,6 +9,7 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 
 import java.util.ArrayList;
 
@@ -19,9 +20,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.alternate_main);
 
-        Button button = (Button)findViewById(R.id.welcome_button);
+        RelativeLayout button = (RelativeLayout) findViewById(R.id.click);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         launchers[10] = R.drawable.launcher11;
 
         int random  = (int)(10.0*Math.random());
-        ImageView imageView = findViewById(R.id.launcher);
-        imageView.setImageResource(launchers[random]);
+        //ImageView imageView = findViewById(R.id.launcher);
+        //imageView.setImageResource(R.drawable.launcher);
     }
 }

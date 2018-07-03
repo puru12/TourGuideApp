@@ -17,7 +17,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".CategoryPanelActivity" />
-        <activity android:name=".ClimateActivity" android:label="Climate"></activity>
+        <activity
+            android:name=".ClimateActivity"
+            android:label="Climate" />
+        <activity
+            android:name=".FoodActivity"
+            android:label="Food and Drinks" />
+        <activity android:name=".BreakfastActivity" android:label="Breakfast"></activity>
     </application>
 
 </manifest>
