@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">The Kanpur Guide</string>
+    <string name="app_name">The Kanpur Guide
+    </string>
+
     <string name="climate_intro">
         The climate of Kanpur is feisty. The summers are hot and dry which last for four months,
 from March to June. The summers are immediately followed by the monsoon season which lasts from
@@ -14,7 +16,22 @@ monsoon season, the average rainfall during the year being 960mm.
         Hungry? Want to have some breakfast, Kanpur Style? Here
 are some curated restaurants and  popular food brands
 for you which serve according to the whims of your tongue. You wont
-find anything better in this town. Choose your food slave for the day
+find anything better in this town. Choose your food slave for the morning
 from the following picks .
     </string>
+
+    <string name="lunch_intro">
+        Had a tiring morning? Too stressed out? Or Just want to have a good meal this afternoon?
+You\'ve come to the right place. Kanpur is filled with edible delight. But you\'ve got to know the
+right place in the town. Here are four affordable restaurants for you where you could enjoy
+a sumptuous meal this afternoon. Check these out. And hey, have a fine afternoon .
+    </string>
+
+    <string name="dinner_intro">
+        Want to have a rich dining experience in Kanpur? And make it affordable? Well, we have the
+picks for you. These restaurants boast of the best dining experiences in the city. Have a dinner date
+or a whim to dine with the family? Cawpore 1857, Waterside and Terrazza 9 are places for you.
+Best of luck exploring these diners !
+    </string>
+
 </resources>

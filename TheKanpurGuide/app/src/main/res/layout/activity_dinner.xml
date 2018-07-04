@@ -13,7 +13,7 @@
             android:layout_width="match_parent"
             android:layout_height="250dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/food_breakfast" />
+            android:src="@drawable/food_dinner" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,10 +29,10 @@
                 android:layout_marginBottom="0dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/libre_baskerville_bold"
-                android:text="Breakfast \nin Kanpur"
+                android:text="Dinner \nin Kanpur"
                 android:textColor="#424242"
-                android:padding="8dp"
                 android:textSize="34sp"
+                android:padding="8dp"
                 android:textStyle="bold" />
 
             <TextView
@@ -42,7 +42,7 @@
                 android:layout_marginBottom="16dp"
                 android:layout_marginTop="16dp"
                 android:fontFamily="@font/lora_regular"
-                android:text="@string/breakfast_intro"
+                android:text="@string/dinner_intro"
                 android:textColor="#424242"
                 android:padding="8dp"
                 android:lineSpacingExtra="9dp"
@@ -54,13 +54,13 @@
                 android:layout_marginTop="16dp"
                 app:cardBackgroundColor="@android:color/white"
                 app:cardCornerRadius="10dp"
-                android:id="@+id/mcdonalds">
+                android:id="@+id/cawnpore1857">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/food_mcdonalds" />
+                    android:src="@drawable/food_cawnpore1857" />
             </android.support.v7.widget.CardView>
 
 
@@ -70,13 +70,13 @@
                 android:layout_marginTop="16dp"
                 app:cardBackgroundColor="@android:color/white"
                 app:cardCornerRadius="10dp"
-                android:id="@+id/kfc">
+                android:id="@+id/waterside">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/food_kfc" />
+                    android:src="@drawable/food_waterside" />
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
@@ -85,28 +85,13 @@
                 android:layout_marginTop="16dp"
                 app:cardBackgroundColor="@android:color/white"
                 app:cardCornerRadius="10dp"
-                android:id="@+id/subway">
+                android:id="@+id/terrazza">
 
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="250dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/food_subway" />
-            </android.support.v7.widget.CardView>
-
-            <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                app:cardBackgroundColor="@android:color/white"
-                app:cardCornerRadius="10dp"
-                android:id="@+id/barbequenation">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="250dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/food_barbequenation" />
+                    android:src="@drawable/food_terrazza" />
             </android.support.v7.widget.CardView>
         </LinearLayout>
     </LinearLayout>

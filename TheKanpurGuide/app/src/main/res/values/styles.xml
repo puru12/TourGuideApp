@@ -8,4 +8,9 @@
         <item name="colorAccent">@android:color/white</item>
     </style>
 
+    <style name="RatingBar" parent="android:style/Widget.Material.RatingBar.Small">
+        <item name="colorControlNormal">#EEEEEE</item>
+        <item name="colorControlActivated">#424242</item>
+    </style>
+
 </resources>

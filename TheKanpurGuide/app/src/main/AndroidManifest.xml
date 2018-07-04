@@ -16,14 +16,33 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CategoryPanelActivity" />
+        <activity
+            android:name=".CategoryPanelActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ClimateActivity"
-            android:label="Climate" />
+            android:label="Climate"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".FoodActivity"
-            android:label="Food and Drinks" />
-        <activity android:name=".BreakfastActivity" android:label="Breakfast"></activity>
+            android:label="Food and Drinks"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BreakfastActivity"
+            android:label="Breakfast in Kanpur"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LunchActivity"
+            android:label="Lunch in Kanpur"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DinnerActivity"
+            android:label="Dinner in Kanpur"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RestaurantActivity"
+            android:screenOrientation="portrait"/>
+
     </application>
 
 </manifest>
