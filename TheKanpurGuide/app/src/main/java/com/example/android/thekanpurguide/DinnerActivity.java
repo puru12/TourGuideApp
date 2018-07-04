@@ -16,6 +16,8 @@ public class DinnerActivity extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.activity_dinner);
 
+        FoodActivity.setRestaurantImageIds();
+
         for(int i = 8;i < 11;i ++){
             final int restaurant = i;
             CardView cardView = findViewById(FoodActivity.restaurantIds[i]);

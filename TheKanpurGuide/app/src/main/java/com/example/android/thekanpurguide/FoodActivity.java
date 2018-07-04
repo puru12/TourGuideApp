@@ -35,7 +35,6 @@ public class FoodActivity extends AppCompatActivity {
         //getSupportActionBar().hide();
         setContentView(R.layout.activity_food);
 
-        setRestaurantImageIds();
 
         CardView cardBreakfast = (CardView)findViewById(R.id.breakfast);
         cardBreakfast.setOnClickListener(new View.OnClickListener() {

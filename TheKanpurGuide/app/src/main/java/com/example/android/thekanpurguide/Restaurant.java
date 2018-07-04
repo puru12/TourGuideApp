@@ -2,12 +2,13 @@ package com.example.android.thekanpurguide;
 
 public class Restaurant {
 
-    private String name, cuizine, address, phone, price, openHours;
+    private String coordinates, name, cuizine, address, phone, price, openHours;
     private int imageId;
     private float rating;
 
-    public Restaurant(String name, String cuizine, String address, String phone, String price,
+    public Restaurant(String coordinates, String name, String cuizine, String address, String phone, String price,
                       String openHours, int imageId, float rating) {
+        this.coordinates = coordinates;
         this.name = name;
         this.cuizine = cuizine;
         this.address = address;
@@ -16,6 +17,10 @@ public class Restaurant {
         this.openHours = openHours;
         this.imageId = imageId;
         this.rating = rating;
+    }
+
+    public String getCoordinates() {
+        return coordinates;
     }
 
     public int getImageId() {
