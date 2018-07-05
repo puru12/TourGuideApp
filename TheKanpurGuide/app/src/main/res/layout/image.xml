@@ -23,7 +23,7 @@
             <ImageView
                 android:id="@+id/list_image"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="160dp"
                 android:scaleType="centerCrop" />
 
         </LinearLayout>

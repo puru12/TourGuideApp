@@ -46,6 +46,11 @@ public class CategoryPanelActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
 
+                    case 2:
+                        intent = new Intent(CategoryPanelActivity.this, TravelActivity.class);
+                        startActivity(intent);
+                        break;
+
                 }
             }
         });
