@@ -38,8 +38,44 @@ Best of luck exploring these diners !
         Kanpur is one of the oldest cities in India. Situated on the banks of the river
 Ganga, Kanpur is a rich blend of culture, tradition and youth. Thousands of tourists visit Kanpur
 every year to experience the splendor of the one of a kind historical and religious sites located
-here. From many a choices, we\'ve collected the top 3 tourist attractions of the city for you.
+here. From many a choices, we\'ve collected the top 4 tourist attractions of the city for you.
 Happy sightseeing .
+    </string>
+
+    <string name="bithoor_intro">
+        Located around 23 km from Kanpur,Bithoor (once known as Brahmavart) is a very important site
+for both Hindu religion and Indian history at large. Legend has it that after the destruction of the
+universe and reconstruction of the galaxy by Lord Vishnu, Lord Brahma (the creator of the universe)
+ selected Bithoor as his abode and performed a \'yagna\'(Hindu prayer ceremony) here, naming the town as
+Brahmavart. This town was also one of the epicenters of revolt of 1857. During the First War of Independence
+, Bithoor became a rallying point for the rebellion against the British East India Company, until it was
+captured by General Havelock in 1857. Today, Bithoor attracts a large number of pilgrims who visit
+the Brahmavart Ghat and Valmiki Ashram, which are the primary attractions of the town .
+    </string>
+
+    <string name="allenforrestzoo_intro">
+        The Allen Forest Zoo, also known simply as the Kanpur Zoo, is the largest open green space in Kanpur. The zoo was founded by
+Sir Allen, a botanist and a member of the British Indian Civil Service, and opened to the public in 1971. The grounds encompass a gorgeous
+lake, and a forest full of ancient trees. This zoo is home to a broad range of mammals, such as rare big cats like Whie Asian tigers,
+Asiatic lions, leopards and jaguars, and a range of monkeys and primates like chimpanzees, baboons, and orangutans. The zoo also houses
+an aquarium, as well life size sculptures of prehistoric dinasours. Those looking to explore the natural beauty of the zoo can join
+the zoo\'s staff on regularly conducted nature walks and a variety of other outdoor recreational activities .
+    </string>
+
+    <string name="iscon_intro">
+        The ISCON / ISKCON temple or Sri Sri Radha Madhav Mandir in Kanpur is the second largest in the world only after the Mayapur ISKON
+temple in West Bengal. Opened for devotees in 2014, the beautiful temple attracts thousands of devotees and visitors every year. The
+temple is spread out over fifteen acres of land. The compound also includes a Vedic Ashram, Food for Life center, Bhaktivedanta Youth Academy
+, Bhaktivedanta Book Library, a guest house for devotees, a conference room, community hall, a restaurant and a gift shop. It also includes
+a Goshala which houses over sixty cows.
+    </string>
+
+    <string name="blueworld_intro">
+        One of the iconic landmarks of the city is the renowned Blue World Theme Park. An entertainment choice of vacationers, this
+amusement park is packed with adventurous water rides and spectacular shows including flying carousel, revolving tower and jumping frog
+ride. One of the key attractions of this place is the water laser show which involves projection filming on a water screen. Other attractions
+include Western train rides, Jet Planes, Columbus and Ferris wheel. Featuring around 10 huge slides and 25 stimulating rides, it is a must
+visit destination for all travellers visiting Kanpur .
     </string>
 
 </resources>
