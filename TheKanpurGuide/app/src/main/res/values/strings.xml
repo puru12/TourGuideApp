@@ -77,5 +77,29 @@ ride. One of the key attractions of this place is the water laser show which inv
 include Western train rides, Jet Planes, Columbus and Ferris wheel. Featuring around 10 huge slides and 25 stimulating rides, it is a must
 visit destination for all travellers visiting Kanpur .
     </string>
+    
+    <string name="history_intro">
+        The history of Kanpur dates back to the 13th century, when the present-day Kanpur was a village named
+Kanhpur, established by Raja Kanh Deo of the Kanhpuria clan. The area was ruled by several rulers of
+Kannauj, such as Harsha Vardhan, Jai Chand and Mihir Bhoja. It was also ruled by Muslim rulers of the
+Sur dynasty. In May 1765, Shuja-ud-daula, the Nawab of Awadh, was defeated by the British near Jajmau.
+From 1773 to 1801, Kanpur was part of the Oudh kingdom, followed by the treaty of 1801 between Nawab
+Saadat Ali Khan of Awadh and the British, who realized the strategic importance of Kanpur. Several
+Europen businessmen established themselves in Kanpur, during this time. The city took part in the Indian
+Rebellion of 1857, under Nana Sahib. Certain events led to the Bibighar massacre, when the sepoy forces
+killed 120 women and children. Following these events, the Kanpur Massacre and similar other massacres was
+carried out by the British, as justification. It led to the loss of the lives of several sepoys, as well
+as civilian men, women and children. Under the British, the present-day Uttar Pradesh was called as
+United Provinces. After the independence of India, it was renamed as Uttar Pradesh in the year 1950.
+    </string>
+
+    <string name="culture_intro">
+Kanpur is blessed with a rich cultural heritage. Eminent poets such as Bal Krishna Sharma have played a key role in promoting this culture.
+Fair and festivals that are celebrated in the city, also offer a glimpse of the culture of Kanpur. The famous Ganga Fair is held for five
+days each year, attracting people from all walks of life. Devotees play Holi and take a holy bath in the Ganges. Kanpur has played an important
+role in the propagation of ‘Nautanki’, a theatre form. Cultural events such as Ram Lila provide a platform to budding artists.
+Classical Indian dance and music forms are also very popular in Kanpur. The food in Kanpur is inspired by Awadhi cuisine. Khoya Laddu and
+Biryani are some of the famous delicacies.
+    </string>
 
 </resources>

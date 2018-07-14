@@ -25,7 +25,7 @@ public class CategoryPanelActivity extends AppCompatActivity {
         list.add(R.drawable.transporttemplate);
         list.add(R.drawable.historytemplate);
 
-        ListView imlist = (ListView) findViewById(R.id.imagelist);
+        final ListView imlist = (ListView) findViewById(R.id.imagelist);
         CustomArrayAdapter adapter = new CustomArrayAdapter(this, 0, list);
         imlist.setAdapter(adapter);
 
@@ -50,6 +50,10 @@ public class CategoryPanelActivity extends AppCompatActivity {
                         intent = new Intent(CategoryPanelActivity.this, TravelActivity.class);
                         startActivity(intent);
                         break;
+
+                    case 5:
+                        intent = new Intent(CategoryPanelActivity.this, HistoryActivity.class);
+                        startActivity(intent);
 
                 }
             }
