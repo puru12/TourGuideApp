@@ -117,7 +117,8 @@
                             android:layout_height="360dp"
                             android:layout_marginBottom="8dp"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/history1" />
+                            android:src="@drawable/history1"
+                            android:onClick="setImagetoView"/>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -149,7 +150,8 @@
                             android:layout_height="450dp"
                             android:layout_marginBottom="8dp"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/history7" />
+                            android:src="@drawable/history7"
+                            android:onClick="setImagetoView"/>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -181,7 +183,8 @@
                             android:layout_height="450dp"
                             android:layout_marginBottom="8dp"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/history3" />
+                            android:src="@drawable/history3"
+                            android:onClick="setImagetoView"/>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -213,7 +216,8 @@
                             android:layout_height="250dp"
                             android:layout_marginBottom="8dp"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/history4" />
+                            android:src="@drawable/history4"
+                            android:onClick="setImagetoView"/>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -245,7 +249,8 @@
                             android:layout_height="400dp"
                             android:layout_marginBottom="8dp"
                             android:scaleType="centerCrop"
-                            android:src="@drawable/history5" />
+                            android:src="@drawable/history5"
+                            android:onClick="setImagetoView"/>
 
                         <TextView
                             android:layout_width="match_parent"

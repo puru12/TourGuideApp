@@ -1,10 +1,8 @@
 package com.example.android.thekanpurguide;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.WindowManager;
 
-public class ClimateActivity extends AppCompatActivity {
+public class ClimateActivity extends ImageAssistantActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,4 +11,5 @@ public class ClimateActivity extends AppCompatActivity {
         //getSupportActionBar().hide();
         setContentView(R.layout.activity_climate);
     }
+
 }

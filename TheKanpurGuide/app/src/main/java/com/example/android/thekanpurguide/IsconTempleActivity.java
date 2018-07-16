@@ -9,7 +9,7 @@ import android.view.WindowManager;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class IsconTempleActivity extends AppCompatActivity {
+public class IsconTempleActivity extends ImageAssistantActivity {
 
     String phone, location;
 

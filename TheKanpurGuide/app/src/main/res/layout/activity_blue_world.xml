@@ -88,7 +88,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/travel_blueworld2" />
+                        android:src="@drawable/travel_blueworld2"
+                        android:onClick="setImagetoView"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -109,7 +110,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/travel_blueworld3" />
+                        android:src="@drawable/travel_blueworld3"
+                        android:onClick="setImagetoView"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -130,7 +132,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/travel_blueworld5" />
+                        android:src="@drawable/travel_blueworld5"
+                        android:onClick="setImagetoView"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -152,7 +155,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/travel_blueworld6" />
+                        android:src="@drawable/travel_blueworld6"
+                        android:onClick="setImagetoView"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -173,7 +177,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/travel_blueworld7" />
+                        android:src="@drawable/travel_blueworld7"
+                        android:onClick="setImagetoView"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -195,7 +200,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/travel_blueworld8" />
+                        android:src="@drawable/travel_blueworld8"
+                        android:onClick="setImagetoView"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>

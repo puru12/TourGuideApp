@@ -9,7 +9,7 @@ import android.view.WindowManager;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class BithoorActivity extends AppCompatActivity {
+public class BithoorActivity extends ImageAssistantActivity {
 
 
     String phone, location;

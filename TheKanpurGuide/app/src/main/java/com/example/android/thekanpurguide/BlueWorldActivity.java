@@ -9,7 +9,7 @@ import android.view.WindowManager;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class BlueWorldActivity extends AppCompatActivity {
+public class BlueWorldActivity extends ImageAssistantActivity {
 
     String phone, location;
 

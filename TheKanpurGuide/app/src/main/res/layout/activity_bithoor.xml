@@ -88,7 +88,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="420dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/travel_bithoor1" />
+                        android:src="@drawable/travel_bithoor1"
+                        android:onClick="setImagetoView"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -109,7 +110,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="420dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/travel_bithoor2" />
+                        android:src="@drawable/travel_bithoor2"
+                        android:onClick="setImagetoView"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -130,7 +132,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="420dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/travel_bithoor3" />
+                        android:src="@drawable/travel_bithoor3"
+                        android:onClick="setImagetoView"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -152,7 +155,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="420dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/travel_bithoor4" />
+                        android:src="@drawable/travel_bithoor4"
+                        android:onClick="setImagetoView"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -174,7 +178,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="420dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/travel_bithoor5" />
+                        android:src="@drawable/travel_bithoor5"
+                        android:onClick="setImagetoView"/>
 
                 </LinearLayout>
             </android.support.v7.widget.CardView>

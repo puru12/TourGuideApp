@@ -9,7 +9,7 @@ import android.view.WindowManager;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class AllenForrestZooActivity extends AppCompatActivity {
+public class AllenForrestZooActivity extends ImageAssistantActivity {
 
     String phone, location;
 

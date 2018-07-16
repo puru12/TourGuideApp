@@ -64,15 +64,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="350dp"
                         android:layout_marginBottom="8dp"
+                        android:onClick="setImagetoView"
                         android:scaleType="centerCrop"
                         android:src="@drawable/climate_rain" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
                         android:layout_marginLeft="16dp"
                         android:layout_marginRight="16dp"
+                        android:gravity="center_horizontal"
                         android:text="Heavy Rain pelts down on the road at Lal Imli, Kanpur." />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -94,15 +95,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="350dp"
                         android:layout_marginBottom="8dp"
+                        android:onClick="setImagetoView"
                         android:scaleType="centerCrop"
                         android:src="@drawable/climate_img3" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
                         android:layout_marginLeft="16dp"
                         android:layout_marginRight="16dp"
+                        android:gravity="center_horizontal"
                         android:text="A vehicle moving through a water filled road in Kanpur." />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -124,15 +126,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="350dp"
                         android:layout_marginBottom="8dp"
+                        android:onClick="setImagetoView"
                         android:scaleType="centerCrop"
                         android:src="@drawable/climate_img2" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
                         android:layout_marginLeft="16dp"
                         android:layout_marginRight="16dp"
+                        android:gravity="center_horizontal"
                         android:text="An enthusiastic group of children play in the monsoon rain." />
                 </LinearLayout>
             </android.support.v7.widget.CardView>
@@ -155,15 +158,16 @@
                         android:layout_width="match_parent"
                         android:layout_height="350dp"
                         android:layout_marginBottom="8dp"
+                        android:onClick="setImagetoView"
                         android:scaleType="centerCrop"
                         android:src="@drawable/climate_img1" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:gravity="center_horizontal"
                         android:layout_marginLeft="16dp"
                         android:layout_marginRight="16dp"
+                        android:gravity="center_horizontal"
                         android:text="Roads of Kanpur filled with water during the monsoon season." />
                 </LinearLayout>
             </android.support.v7.widget.CardView>

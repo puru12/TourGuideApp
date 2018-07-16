@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.WindowManager;
 
-public class HistoryActivity extends AppCompatActivity {
+public class HistoryActivity extends ImageAssistantActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -62,6 +62,7 @@
             android:name=".HistoryActivity"
             android:label="History`"
             android:screenOrientation="portrait" />
+        <activity android:name=".ImageActivity"></activity>
     </application>
 
 </manifest>
