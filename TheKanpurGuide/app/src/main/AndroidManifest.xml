@@ -62,7 +62,16 @@
             android:name=".HistoryActivity"
             android:label="History`"
             android:screenOrientation="portrait" />
-        <activity android:name=".ImageActivity"></activity>
+        <activity
+            android:name=".ImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GovernanceActivity"
+            android:label="Governance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DeveloperActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

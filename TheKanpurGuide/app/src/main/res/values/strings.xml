@@ -102,4 +102,20 @@ Classical Indian dance and music forms are also very popular in Kanpur. The food
 Biryani are some of the famous delicacies.
     </string>
 
+    <string name="governance_intro">
+        Kanpur division which consists of seven districts, and is headed by the Divisional Commissioner of Kanpur, who is an IAS officer of high
+seniority, the Commissioner is the head of local government institutions ( including Municipal Corporations ) in the division, is in charge of
+infrastructure development in his division, and is also responsible for maintaining law and order in the division. The District
+Magistrate of Kanpur reports to the Divisional Commissioner. The current Commissioner is Pradeep Kumar Mohanty.\n\nKanpur Nagar District
+encompasses one Lok Sabha constituency and ten Vidhansabha constituencies. The current Member of Parliament from Kanpur Nagar is Murli Manohar Joshi.
+    </string>
+
+    <string name="developer_intro">
+        I am a Computer Science undergraduate student at National Institute of Technology, Jamshedpur. I was born in Kanpur and spent my entire childhood here.
+I love this city and everything about it. I built this app because I developed an interest in developing
+android apps, and started learning about it from online resources. This app is my first Android project and this should stand testament to whatever I have learnt so
+far about building android apps. Also, I love my hometown. This city, with it\'s goods and bads, brought me up. So building an app on Kanpur seemed reasonable. If you ever
+visit Kanpur and need some help,  do ping me. Further below, I have provided my personal overview about the city. Do have a look at it !
+    </string>
+
 </resources>
