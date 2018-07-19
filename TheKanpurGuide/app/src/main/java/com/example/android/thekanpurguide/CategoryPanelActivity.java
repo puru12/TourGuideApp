@@ -63,6 +63,11 @@ public class CategoryPanelActivity extends AppCompatActivity {
                         startActivity(intent);
                         break;
 
+                    case 4:
+                        intent = new Intent(CategoryPanelActivity.this, TransportActivity.class);
+                        startActivity(intent);
+                        break;
+
                     case 5:
                         intent = new Intent(CategoryPanelActivity.this, HistoryActivity.class);
                         startActivity(intent);
@@ -91,6 +96,7 @@ public class CategoryPanelActivity extends AppCompatActivity {
                     startActivity(intent);
                 }
             }
+
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
             }

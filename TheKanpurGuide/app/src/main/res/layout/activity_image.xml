@@ -6,7 +6,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.18"
+        android:layout_weight="0"
         android:background="#FFFFFF"/>
 
     <ImageView
@@ -14,13 +14,13 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_centerInParent="true"
-        android:layout_weight="0.66"
-        android:scaleType="centerCrop"
-        android:src="@drawable/history1" />
+        android:layout_weight="1"
+        android:scaleType="fitCenter"
+        android:src="@drawable/history7" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.18"
+        android:layout_weight="0"
         android:background="#FFFFFF"/>
 </LinearLayout> 

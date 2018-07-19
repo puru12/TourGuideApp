@@ -118,4 +118,15 @@ far about building android apps. Also, I love my hometown. This city, with it\'s
 visit Kanpur and need some help,  do ping me. Further below, I have provided my personal overview about the city. Do have a look at it !
     </string>
 
+    <string name="transport_intro">
+Kanpur Central is a major railhead and is among the busiest railway stations in the country. Rail routes connect it to all major cities in the
+state and the country. It is an A-1 category railway station coming under the Allahabad railway division of North Central Railway zone of Indian
+Railways. Around 300 trains pass through the station daily. Other railway stations serving the city and it\'s metropolitan region include Kanpur
+Anwarganj, Govindpuri and Chakeri.\n\nKanpur Airport has scheduled commercial flights to Delhi. The nearest International Airport is the Chaudhary
+Charan Singh International Airport at Lucknow, which is around 77.1 km from Kanpur.\n\nThe city has had chronic problems with maintaining local roads.
+There are several important National Highways that pass through Kanpur. Some of them include NH25, NH2, NH86 and NH91.
+
+
+    </string>
+
 </resources>
