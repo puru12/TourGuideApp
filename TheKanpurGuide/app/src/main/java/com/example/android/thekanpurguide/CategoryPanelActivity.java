@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.AdapterView;
@@ -18,10 +20,23 @@ import java.util.List;
 public class CategoryPanelActivity extends AppCompatActivity {
 
     @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        Intent intent = new Intent(CategoryPanelActivity.this, DeveloperActivity.class);
+        startActivity(intent);
+        return true;
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.overflow_menu, menu);
+        return  true;
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getSupportActionBar().hide();
+        //getSupportActionBar().hide();
         setContentView(R.layout.activity_category_panel);
 
         ArrayList<Integer> list = new ArrayList<Integer>();
@@ -75,33 +90,5 @@ public class CategoryPanelActivity extends AppCompatActivity {
                 }
             }
         });
-
-        ArrayList<String> spinnerList = new ArrayList<>();
-        spinnerList.add("About the dev");
-
-        Spinner spinner = (Spinner) findViewById(R.id.spinner);
-
-        spinner.setSelection(0);
-
-        ArrayAdapter<CharSequence> adapterSpinner = ArrayAdapter.createFromResource(this, R.array.planets_array, android.R.layout.simple_spinner_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
-        spinner.setAdapter(adapterSpinner);
-
-        AdapterView.OnItemSelectedListener onItemSelectedListener = new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                if (position == 1) {
-                    Intent intent = new Intent(CategoryPanelActivity.this, DeveloperActivity.class);
-                    startActivity(intent);
-                }
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-            }
-        };
-
-        spinner.setOnItemSelectedListener(onItemSelectedListener);
     }
 }
